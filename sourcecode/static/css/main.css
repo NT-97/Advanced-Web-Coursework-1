@@ -1,0 +1,55 @@
+/* Landing Page */
+.logo
+{
+  display: block;
+  margin: 0 auto;
+}
+
+.vertical-align
+{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#album_info
+{
+  font-family: 'Work Sans', sans-serif;
+
+}
+
+/* Main UI */
+div.item
+{
+
+  vertical-align: top;
+  margin-top: 5;
+  margin-left: 20;
+  padding-left: 15;
+  float: left;
+  text-align: left;
+  width: 15%;
+
+}
+
+.caption
+{
+  display: block;
+  color: white;
+}
+.caption_date
+{
+  display: block;
+}
+
+.row
+{
+  margin: 10;
+  margin-top: 5;
+  width: 100%;
+}
+
+.column
+{
+  column-count: 3;
+}
