@@ -1,49 +1,36 @@
-
+ 
 <html>
    <head>
       <!--  Importing Stylesheets / Custom Font-->
-      <link href="static/css/main.css" rel="stylesheet" type="text/css">
+
+      <link href="/static/css/main.css" rel="stylesheet" type="text/css">
+      <link href="/static/css/music.css" rel="stylesheet" type="text/css">
       <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
       <link href="{{url_for('static', filename='bootstrap/css/bootstrap.min.css')}}" rel="stylesheet"/>
       <title>Bepop</title>
    </head>
    <!-- Image Background-->
-   <body background={{url_for('static', filename="musicback/nirvana_back.png", onclick="return false")}}></body>
+
    <!-- Main UI for page -->
    <div class="row">
       <div class="block">
-         <!-- Album Cover -->
-         <img src="/static/albumcovers/kaiser.png" alt="nirvana" class="album_cover">
+         <!-- Cover -->
+         <img src="/static/albumcovers/kaiser.png" alt="kaiser" class="album_cover">
       </div>
       <div class="block2" id="album_info">
-         <!-- Album  Info -->
-         <h1 class="album_title">Nirvana</h1>
-         <h4 class="album_date">1983  Genre - Punk Rock  </h4>
-         <h4 class="movie_subtitle">Overview:</h4>
-         <h4 class="album_desc">Hi there testing, be back shortly</h4>
-         <h4 class="album_subtitle">Band Members:</h4>
+         <!-- Info -->
+         <!-- Info -->
+         <h1 class="album_title">nirvana</h1>
+         <h4 class="album_date">2017  • Rock • </h4>
+         <img src="/static/rating/stars_3.png" alt="3 Stars" class="stars">
+         <h4 class="album_subtitle">Overview:</h4>
+         <h4 class="album_desc">blah blah blah.</h4>
+         <h4 class="album_subtitle">Featured Members:</h4>
          <div class="band_row">
             <div class="band_block">
-               <span class="band">base</span>
-               <span class="band_role">Drummer</span>
-            </div>
-            <div class="band_block">
-               <span class="band">Gary</span>
-               <span class="band_role">guitarist</span>
-            </div>
-            <div class="band_block">
-               <span class="band">michael</span>
-               <span class="band_role">singer</span>
-            </div>
-            <div class="band_block">
-               <span class="band">bobby</span>
+               <span class="band">blah</span>
                <span class="band_role">Bass</span>
             </div>
-         </div>
-         <!-- Linking to spotify -->
-         <a href="https://open.spotify.com/album/2UJcKiJxNryhL050F5Z1Fk" class="album_desc">
-         <button class="button button_curved">Go to Album</button>
-         </a>
       </div>
    </div>
 </html>

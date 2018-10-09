@@ -21,5 +21,13 @@ def nirvana():
 def kaiser():
    return render_template('kaiser.html'), 200
 
+@app.route("/music/killers")
+def killers():
+  return render_template('killers.html'), 200
+
+@app.route("/music/elvis")
+def elvis():
+  return render_template('elvis.html'), 200
+
 if __name__ == "__main__":
     app.run(host='0.0.0.0', debug=True)
