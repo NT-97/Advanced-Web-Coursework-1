@@ -45,5 +45,10 @@ def takethat():
 @app.route("/music/thestoneroses")
 def thestoneroses():
     return render_template('thestoneroses.html')
+
+@app.route("/music/michaeljackson")
+def michaeljackson():
+    return render_template('michaeljackson.html')
+
 if __name__ == "__main__":
     app.run(host='0.0.0.0', debug=True)
