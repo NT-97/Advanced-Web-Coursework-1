@@ -29,5 +29,21 @@ def killers():
 def elvis():
   return render_template('elvis.html'), 200
 
+@app.route("/music/blackeyedpeas")
+def blackeyedpeas():
+    return render_template('blackeyedpeas.html')
+
+
+@app.route("/music/theclash")
+def theclash():
+    return render_template('theclash.html')
+
+@app.route("/music/takethat")
+def takethat():
+    return render_template('takethat.html')
+
+@app.route("/music/thestoneroses")
+def thestoneroses():
+    return render_template('thestoneroses.html')
 if __name__ == "__main__":
     app.run(host='0.0.0.0', debug=True)
