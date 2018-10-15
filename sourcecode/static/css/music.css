@@ -30,6 +30,7 @@
 .album_heading
 {
   margin: 10;
+  text-decoration: underline;
 }
 
 .album_title h1
