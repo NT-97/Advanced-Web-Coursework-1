@@ -100,9 +100,17 @@
     cursor: pointer;
 }
 
-.button_curved
+.buttonlink:hover {background-color: #FFA69E}
+
+.buttonlink:active {
+  background-color: #FFA69E;
+  box-shadow: 0 20px #AA4465;
+  transform: translateY(20px);
+}
+
+.button_border
 {
-  border-radius: 8px;
+  border-radius: 20px;
 }
 
 .band
