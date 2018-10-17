@@ -1,3 +1,4 @@
+
 <html>
    <head>
       <!--  Importing Stylesheets / Custom Font-->
@@ -11,31 +12,36 @@
    <!-- Image Background-->
 
    <body background={{url_for('static', filename="musicback/back_all.png")}}></body>
-   <!-- Main UI for page -->
+   <!-- Main UI for page--!>
    <div class="row">
-      <div class="block">
+      <div class="block" >
          <!-- Cover -->
-         <img src="/static/albumcovers/nirvana1.png" alt="nirvana" class="album_cover">
+         <img src="/static/albumcovers/muse.png" alt="muse" class="album_cover">
       </div>
       <div class="block2" id="album_info">
          <!-- Info -->
-         <!-- Info -->
-         <h1 class="album_title">nirvana</h1>
-         <h4 class="album_date">2017  • Rock • </h4>        
-         <img src="/static/listens/star.png" alt="rating" class="rating">
-         <h4 class="album_heading">Album Background:</h4>
-         <h4 class="album_desc">blah blah blah.</h4>
-         <h4 class="album_heading">Band Members:</h4>
+
+         <h1 class="album_title">Muse</h1>
+         <h4 class="album_date"> Black Holes and Revelations • 2005 • Alternative Rock</h4>        
+         <font size="4" color="red">NME Magazine Rating:  </font>
+         <img src="/static/listens/4star.png" alt="rating" width="190" height="52" align="middle">
+        <h4 class="album_heading">Album Background</h4>
+         <h4 class="album_desc">This is the fourth studio album created by English rock band Muse. The album gets its title from a line in the song Starlight, which is the second track on the album. Recording was split between New York and France, and it was the first time they had taken a more active role in the albums production. </h4>
+         <h4 class="album_heading">Band Members</h4>
          <div class="band_row">
             <div class="band_block">
-               <span class="band">blah</span>
-               <span class="band_role">Bass</span>
+               <span class="band">Matthew Bellamy</span>
+               <span class="band_role">Lead Vocals</span>
             </div>           
             <div class="band_block">
-               <span class="band">michael</span>
-               <span class="band_role">Lead singer</span>
+               <span class="band">Christopher Wolstenholme</span>
+               <span class="band_role">Bass Guitar and Backing Vocals</span>
             </div>
+            <div class="band_block">
+               <span class="band">Dominic Howard</span>
+               <span class="band_role">Drume</span>
+            </div>
+
       </div>
    </div>
 </html>
-
