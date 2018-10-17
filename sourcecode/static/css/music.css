@@ -53,13 +53,13 @@
   width: 325px;
 
 }
-.block
+.section
 {
   display: inline-block;
   float: left;
 }
 
-.block2
+.section2
 {
   display: inline-block;
   padding: 25;
@@ -77,12 +77,6 @@
   width: 100%;
 }
 
-.row3
-{
-  margin: 10;
-  width: 100%:
-}
-
 .album_desc
 {
   text-align: left;
@@ -93,13 +87,13 @@
 
 }
 
-.button {
-    background-color: #BD0FE1;
+.buttonlink {
+    background-color: #A7FFF6;
     border: none;
-    color: white;
-    padding: 5px;
+    color: black;
+    padding: 20px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 15px;
 
     font-size: 12px;
 
@@ -127,18 +121,12 @@
   font-size: 16px;
 }
 
-.band_block
+.band_section
 {
   display: inline-table;
 
 }
 
-.band_block_extra
-{
-  display: inline-table;
-
-  float: left;
-}
 .band_row
 {
   text-align: left;

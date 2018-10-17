@@ -1,3 +1,4 @@
+
 <html>
    <head>
       <!--  Importing Stylesheets / Custom Font-->
@@ -11,31 +12,44 @@
    <!-- Image Background-->
 
    <body background={{url_for('static', filename="musicback/back_all.png")}}></body>
-   <!-- Main UI for page -->
+   <!-- Main UI for page--!>
    <div class="row">
-      <div class="block">
+      <div class="section" >
          <!-- Cover -->
-         <img src="/static/albumcovers/nirvana1.png" alt="nirvana" class="album_cover">
+         <img src="/static/albumcovers/radiohead.png" alt="radiohead" class="album_cover">
       </div>
-      <div class="block2" id="album_info">
+      <div class="section" id="album_info">
          <!-- Info -->
-         <!-- Info -->
-         <h1 class="album_title">nirvana</h1>
-         <h4 class="album_date">2017  • Rock • </h4>        
-         <img src="/static/listens/star.png" alt="rating" class="rating">
-         <h4 class="album_heading">Album Background:</h4>
-         <h4 class="album_desc">blah blah blah.</h4>
-         <h4 class="album_heading">Band Members:</h4>
+
+         <h1 class="album_title">Radiohead</h1>
+         <h4 class="album_date"> OK COMPUTER • 1997 • Alternative Rock   </h4>        
+         <font size="4" color="red">NME Magazine Rating:  </font>
+         <img src="/static/listens/3star.png" alt="rating" width="190" height="52" align="middle">
+        <h4 class="album_heading">Album Background</h4>
+         <h4 class="album_desc">This was the third studio album created by Radiohead. OK COMPUTER reached number 1 in the UK charts despite lower sales being estimated. This has now been named as one of the greatest albums ever made. </h4>
+         <h4 class="album_heading">Band Members</h4>
          <div class="band_row">
-            <div class="band_block">
-               <span class="band">blah</span>
-               <span class="band_role">Bass</span>
+            <div class="band_section">
+               <span class="band">Thom Yorke</span>
+               <span class="band_role">Lead Vocals</span>
             </div>           
-            <div class="band_block">
-               <span class="band">michael</span>
-               <span class="band_role">Lead singer</span>
+            <div class="band_section">
+               <span class="band">Jonny Greenwood</span>
+               <span class="band_role">Guitar</span>
             </div>
+            <div class="band_section">
+               <span class="band">Phil Selway</span>
+               <span class="band_role">Drums/Percussion</span>
+            </div>
+            <div class="band_section">
+               <span class="band">Ed O'Brien</span>
+               <span class="band_role">Guitar</span>
+            </div>
+            <div class="band_section">
+               <span class="band">Colin Greenwood</span>
+               <span class="band_role">Bass Guitar</span>
+            </div>
+
       </div>
    </div>
 </html>
-

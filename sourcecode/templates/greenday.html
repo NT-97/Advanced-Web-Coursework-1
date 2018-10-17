@@ -1,3 +1,4 @@
+
 <html>
    <head>
       <!--  Importing Stylesheets / Custom Font-->
@@ -11,31 +12,36 @@
    <!-- Image Background-->
 
    <body background={{url_for('static', filename="musicback/back_all.png")}}></body>
-   <!-- Main UI for page -->
+   <!-- Main UI for page--!>
    <div class="row">
-      <div class="block">
+      <div class="section" >
          <!-- Cover -->
-         <img src="/static/albumcovers/nirvana1.png" alt="nirvana" class="album_cover">
+         <img src="/static/albumcovers/greenday.png" alt="greenday" class="album_cover">
       </div>
-      <div class="block2" id="album_info">
+      <div class="section2" id="album_info">
          <!-- Info -->
-         <!-- Info -->
-         <h1 class="album_title">nirvana</h1>
-         <h4 class="album_date">2017  • Rock • </h4>        
-         <img src="/static/listens/star.png" alt="rating" class="rating">
-         <h4 class="album_heading">Album Background:</h4>
-         <h4 class="album_desc">blah blah blah.</h4>
-         <h4 class="album_heading">Band Members:</h4>
+
+         <h1 class="album_title">Green Day</h1>
+         <h4 class="album_date"> Dookie • 1994 • Punk Rock   </h4>        
+         <font size="4" color="red">NME Magazine Rating:  </font>
+         <img src="/static/listens/2star.png" alt="rating" width="190" height="52" align="middle">
+        <h4 class="album_heading">Album Background</h4>
+         <h4 class="album_desc">This was the third album by American punk rock band Greenday released on February 1st 1994. It was the band first collaboration with producer Rob Cavallo and its major record label debut. </h4>
+         <h4 class="album_heading">Band Members</h4>
          <div class="band_row">
-            <div class="band_block">
-               <span class="band">blah</span>
-               <span class="band_role">Bass</span>
-            </div>           
-            <div class="band_block">
-               <span class="band">michael</span>
-               <span class="band_role">Lead singer</span>
+            <div class="band_section">
+               <span class="band">Billie Joe Armstrong</span>
+               <span class="band_role">Lead Vocals</span>
             </div>
+            <div class="band_section">
+               <span class="band">Mike Dirnt</span>
+               <span class="band_role">Bass</span>
+            </div>
+            <div class="band_section">
+               <span class="band">Tre Cool</span>
+               <span class="band_role">Drums</span>
+            </div>
+
       </div>
    </div>
 </html>
-
