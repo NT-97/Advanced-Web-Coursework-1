@@ -8,6 +8,7 @@
 
 .album_title
 {
+    font-size:40px;
     text-align: left;
     margin: 0;
     margin-top: 35;
@@ -17,7 +18,7 @@
 }
 
 
-.album_date
+.album_date 
 {
     text-align: left;
     margin: 0;
@@ -27,8 +28,9 @@
     float: left;
 }
 
-.album_heading
-{
+.album_heading  
+{ 
+  font-size; 20;
   margin: 10;
   text-decoration: underline;
 }
@@ -36,13 +38,19 @@
 .album_title h1
 {
 
-  font-size: 35px
+  font-size: 25px
 }
 
-.album_date
+.album_title h4
+{
+
+padding-bottom:10
+}
+
+.album_date 
 {
   padding-bottom: 10;
-  font-size: 18px;
+  font-size: 20px;
 
 }
 
@@ -77,7 +85,7 @@
   width: 100%;
 }
 
-.album_desc
+.album_desc  
 {
   text-align: left;
   margin: 10;

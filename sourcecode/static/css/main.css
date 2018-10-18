@@ -69,5 +69,40 @@ font-size: 50px;
   margin-top: 10;
   width: 100%;
 }
+/* 404 error handling customisation*/
+.maintext
+{
+
+font-size:38;
+text-align: center;
+margin-top:200;
+}
+
+.link1
+{
+font-size:24;
+text-align: center;
+margin-top:20;
+}
+
+.text
+{
+
+text-align:center;
+
+}
+
+.link2
+{
+font-size:20px;
+position:absolute;
+top: 800;
+right: 142;
+}
+
+
+
+
+
 
 
