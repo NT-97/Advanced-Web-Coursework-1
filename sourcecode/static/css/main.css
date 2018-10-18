@@ -1,31 +1,52 @@
-/* Main Page */
-.logo
+/* Welcome Page */
+.gif
 {
+  
   display: block;
   margin: 0 auto;
 }
 
+
 .vertical-align
 {
   position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 60%;
+  transform: translateY(-120%); 
 }
+
 
 #album_info
 {
   font-family: 'Oswald', sans-serif;
+ 
+}
+
+.main_text  h1 {
+
+margin: 20px;
+margin-top: 45px;
+margin-left: 550px;
+text-align:center;
+border-radius: 25px;
+background: black;
+color:#00F0B5;
+border-style: solid;
+border-color:#00F0B5;
+border-width: 14px;
+width:950px;
+font-size: 50px;
 
 }
 
-/* Main UI */
-div.item
+
+/* Main Album User Interface */
+.item
 {
 
-  vertical-align: top;
-  margin-top: 5;
+  vertical-align: middle;
+  margin-top: 15;
   margin-left: 20;
-  padding-left: 15;
+  padding-left: 25;
   float: left;
   text-align: left;
   width: 15%;
@@ -44,12 +65,9 @@ div.item
 
 .row
 {
-  margin: 10;
-  margin-top: 5;
+  margin: 15;
+  margin-top: 10;
   width: 100%;
 }
 
-.column
-{
-  column-count: 3;
-}
+

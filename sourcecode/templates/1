@@ -16,32 +16,32 @@
          </div>
          
          <div class="item">
-         <a href="music/kaiser_chiefs"><img src="/static/albumcovers/kaiser.png" width="100%"/></a>
+         <a href="music/kaiserchiefs"><img src="/static/albumcovers/kaiser.png" width="100%"/></a>
          <span class="caption">Kaiser Chiefs</span>
          <span class="caption">Off With Their Heads</span> 
         </div>
 
          <div class="item">
-         <a href="music/the_killers"><img src="/static/albumcovers/killer.png" width="100%"/></a>
+         <a href="music/thekillers"><img src="/static/albumcovers/killer.png" width="100%"/></a>
          <span class="caption">The Killers</span>
          <span class="caption">Day & Age</span> 
         </div>
 
          <div class="item">
-         <a href="music/elvis_pressley"><img src="/static/albumcovers/elvis.png" width="100%"/></a>
+         <a href="music/elvispressley"><img src="/static/albumcovers/elvis.png" width="100%"/></a>
          <span class="caption">Elvis Pressley</span>
          <span class="caption">Sunrise</span> 
         </div>
 
          <div class="item">
-         <a href="music/black_eyed_peas"><img src="/static/albumcovers/blackeyedpeas.png" width="100%"/></a>
+         <a href="music/blackeyedpeas"><img src="/static/albumcovers/blackeyedpeas.png" width="100%"/></a>
          <span class="caption">Black Eyed Peas</span>
          <span class="caption">The End</span> 
         </div>
        
 
          <div class="item">
-         <a href="music/the_clash"><img src="/static/albumcovers/clash1.png" width="100%"/></a>
+         <a href="music/theclash"><img src="/static/albumcovers/clash1.png" width="100%"/></a>
          <span class="caption">The Clash</span>
          <span class="caption">London Calling</span> 
         </div>
@@ -50,13 +50,13 @@
       <div class="row2" id="album_info">
          <!-- Album Cover/Info -->
          <div class="item">
-            <a href="music/take_that"><img src="/static/albumcovers/takethat.png" width="100%"/></a>
+            <a href="music/takethat"><img src="/static/albumcovers/takethat.png" width="100%"/></a>
             <span class="caption">Take That</span>
             <span class="caption">Progress</span>
          </div>
          
          <div class="item">
-         <a href="music/the_stone_roses"><img src="/static/albumcovers/thestoneroses.png" width="100%"/></a>
+         <a href="music/thestoneroses"><img src="/static/albumcovers/thestoneroses.png" width="100%"/></a>
          <span class="caption">The Stone Roses</span>
          <span class="caption">Stone Roses Debut Album</span> 
         </div>
@@ -68,7 +68,7 @@
         </div>
 
          <div class="item">
-         <a href="music/michael_jackson"><img src="/static/albumcovers/michaeljackson.png" width="100%"/></a>
+         <a href="music/michaeljackson"><img src="/static/albumcovers/michaeljackson.png" width="100%"/></a>
          <span class="caption">Michael Jackson</span>
          <span class="caption">Thriller</span> 
         </div>
@@ -101,7 +101,7 @@
         </div>
 
          <div class="item">
-         <a href="music/green_day"><img src="/static/albumcovers/greenday.png" width="100%"/></a>
+         <a href="music/greenday"><img src="/static/albumcovers/greenday.png" width="100%"/></a>
          <span class="caption">Green Day</span>
          <span class="caption">Dookie</span> 
         </div>
@@ -113,7 +113,7 @@
         </div>
 
          <div class="item">
-         <a href="music/the_beatles"><img src="/static/albumcovers/thebeatles.png" width="100%"/></a>
+         <a href="music/thebeatles"><img src="/static/albumcovers/thebeatles.png" width="100%"/></a>
          <span class="caption">The Beatles</span>
          <span class="caption">Abbey Road</span> 
         </div>

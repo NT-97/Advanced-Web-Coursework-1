@@ -2,14 +2,22 @@
    <head>
       <!--  Importing Stylesheet-->
       <link href="static/css/main.css" rel="stylesheet" type="text/css">
+      <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">      
       <title>BEPOP</title>
-   </head>
-   <!-- Image Background-->
-   <body background={{url_for('static', filename="musicback.png", onclick="return false")}}></body>
+  </head>
+   
+   <body background={{url_for('static', filename="background.png", onclick="return false")}}>
+<div class="main_text" id="album_info">
+    <h1 class="main_text">Music Album Directory 🎸  - Select the GIF to enter</h1>
+</div>
    <div class="vertical-align">
       <!-- Linking to another section -->
       <a href="/music">
-      <img src="/static/logogif.gif" alt="logo" class="logo">
+      <img src="/static/logo.gif" alt="gif" class="gif">
       </a>
    </div>
+
+
+   </body>
+
 </html>

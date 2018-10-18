@@ -100,11 +100,11 @@
     cursor: pointer;
 }
 
-.buttonlink:hover {background-color: #FFA69E}
+.buttonlink:hover {background-color: #F61067}
 
 .buttonlink:active {
-  background-color: #FFA69E;
-  box-shadow: 0 20px #AA4465;
+  background-color: #00F0B5;
+  box-shadow: 0 20px black;
   transform: translateY(20px);
 }
 
