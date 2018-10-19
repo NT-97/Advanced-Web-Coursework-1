@@ -25,7 +25,7 @@
 
 margin: 20px;
 margin-top: 45px;
-margin-left: 550px;
+
 text-align:center;
 border-radius: 25px;
 background: black;
@@ -33,7 +33,7 @@ color:#00F0B5;
 border-style: solid;
 border-color:#00F0B5;
 border-width: 14px;
-width:950px;
+
 font-size: 50px;
 
 }
@@ -43,10 +43,10 @@ font-size: 50px;
 .item
 {
 
-  vertical-align: middle;
-  margin-top: 15;
+  vertical-align: top;
+  margin-top: 5;
   margin-left: 20;
-  padding-left: 25;
+  padding-left: 15;
   float: left;
   text-align: left;
   width: 15%;
@@ -65,10 +65,11 @@ font-size: 50px;
 
 .row
 {
-  margin: 15;
-  margin-top: 10;
+  margin: 10;
+  margin-top: 5;
   width: 100%;
 }
+
 /* 404 error handling customisation*/
 .maintext
 {
